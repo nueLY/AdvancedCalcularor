@@ -1,0 +1,43 @@
+.root {
+    -fx-base: white;
+    -fx-background: white;
+}
+
+.button {
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+}
+
+.label {
+    -fx-font-style: normal;
+}
+
+.text-field {
+    -fx-font-size: 24px;
+    -fx-opacity: 1;
+    -fx-alignment: baseline-right;
+}
+
+.myEqual {
+    -fx-background-color: mediumorchid;
+    -fx-text-fill: white;
+}
+
+.myEqual:hover {
+    -fx-opacity: 0.7;
+}
+
+.myEqual:pressed {
+    -fx-background-color: coral;
+    -fx-text-fill: black;
+}
+
+.error-textfield {
+    -fx-border-color: red;
+    -fx-border-width: 2px;
+}
+
+.myMemomoryStore{
+    -fx-border-width: 2px;
+    -fx-border-color: mediumorchid;
+}

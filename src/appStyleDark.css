@@ -1,0 +1,47 @@
+/* We will use selectors to group properties to apply*/
+
+
+.root {
+    -fx-base: black;
+    -fx-background: black;
+}
+
+.button {
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+}
+
+.label {
+    -fx-font-style: normal;
+}
+
+.text-field {
+    -fx-background-color: blanchedalmond;
+    -fx-font-size: 24px;
+    -fx-opacity: 1;
+    -fx-alignment: baseline-right;
+}
+
+.myEqual {
+    -fx-background-color: blanchedalmond;
+    -fx-text-fill: black;
+}
+
+.myEqual:hover {
+    -fx-background-color: coral;
+    -fx-text-fill: black;
+}
+
+.myEqual:pressed {
+    -fx-background-color: red;
+}
+
+.error-textfield {
+    -fx-border-color: red;
+    -fx-border-width: 2px;
+}
+
+.myMemomoryStore{
+    -fx-border-width: 2px;
+    -fx-border-color: blanchedalmond;
+}
